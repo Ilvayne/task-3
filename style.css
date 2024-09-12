@@ -1343,16 +1343,16 @@ textarea {
 
 .content-head__top .notification span {
 	position: absolute;
-	top: -3px;
-	right: -4px;
+	top: -5px;
+	right: -5px;
 	background: var(--Primary-blue, #428aff);
 	border-radius: 50%;
-	width: 16px;
-	height: 15px;
+	width: 23px;
+	height: 23px;
 	color: white;
-	font-size: 8.35px;
+	font-size: 16px;
 	font-weight: 700;
-	line-height: 15.36px;
+	line-height: 23.36px;
 	text-align: center;
 	font-family: sans-serif;
 }
