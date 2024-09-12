@@ -13,4 +13,18 @@ document.addEventListener("DOMContentLoaded", function () {
       contents[index].classList.add("active");
     });
   });
+
+  var headerWrap = document.getElementById("header__wrapper");
+
+  if (headerWrap) {
+    function handleScroll() {
+      if (window.scrollY === 0) {
+        headerWrap.classList.remove("scrolled-down");
+      } else {
+        headerWrap.classList.add("scrolled-down");
+      }
+    }
+  }
+
+  window.addEventListener("scroll", handleScroll);
 });
