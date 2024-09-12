@@ -1045,7 +1045,6 @@ textarea {
 /* Blocks
 --------------------------------------------- */
 .nav-bar {
-	max-height: 906px;
 	height: calc(100vh - 50px);
 	padding: 11px 24px 32px 24px;
 	border-radius: 24px;
